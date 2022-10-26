@@ -131,19 +131,19 @@ body {
     scroll-snap-type: y mandatory;
   }
   
-  h1 {
+  .title-presentation {
     font-size: 40px;
     font-weight: 700;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     line-height: 1.2;
     text-align: center;    
     width: 100%;
   }
 
-  h1:first-of-type{ margin-top: 100px; }
-  h1:last-of-type{ margin-bottom: 100px; }
+  .title-presentation:first-of-type{ margin-top: 100px; }
+  .title-presentation:last-of-type{ margin-bottom: 100px; }
   
-  h2 {
+  .title-index {
     margin: 0;
     color: var(--accent);
     left: calc(100%);
@@ -219,3 +219,34 @@ body {
     bottom: 100px;
   }
   
+  @media screen and (max-width: 1200px) {
+    .title-presentation { font-size: 30px; }
+    .title-index{
+      left: calc(50% - 40px);
+      bottom: 22%;
+    }
+    
+  }
+
+  @media screen and (max-width: 680px) {
+    section{ width: 100%; }
+  }
+
+  @media screen and (max-width: 640px) {
+    .section-presentation{
+      padding: 0 15px;
+    }
+
+    .title-presentation{ font-size: 19px; letter-spacing: 0;}
+
+  }
+
+
+  @media screen and (max-width: 520px) {
+    section .image-container{ background-color: transparent; }
+    img{ height: initial; top: 50%; transform: translateY(-50%);}
+  }
+
+  @media screen and (max-width: 414px) {
+    section .description .title { font-size: 37px; }
+  }
