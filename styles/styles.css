@@ -221,7 +221,7 @@ body {
   
   @media screen and (max-width: 1200px) {
     .title-presentation { font-size: 30px; }
-    .title-index{ left: calc(50% - 40px); }    
+    .title-index{ left: calc(50% - 40px); bottom: 22%; }    
   }
 
   @media screen and (max-width: 680px) { section{ width: 100%; } }
