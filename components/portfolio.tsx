@@ -26,7 +26,7 @@ function Section({ id, image, title, linkGit, linkSite }: { id: number, image: s
           <a href={linkSite}>Link siteweb</a>
         </div>        
       </div>
-      <motion.h2 style={{ y }}>{`#00${id}`}</motion.h2>
+      <motion.h2 class="title-index" style={{ y }}>{`#00${id}`}</motion.h2>
       
     </section>
   );
@@ -63,11 +63,11 @@ export default function Portfolio() {
 
   return (
     <>
-      <section>
-        <h1>Bonjour,</h1>
-        <h1>Mon nom est Yevgeniy Polyakov.</h1>
-        <h1>Je suis web développeur.</h1>
-        <h1>Défilement vers le bas pour voir mes projets</h1>
+      <section class="section-presentation">
+        <h1 class="title-presentation">Bonjour,</h1>
+        <h1 class="title-presentation">Mon nom est Yevgeniy Polyakov.</h1>
+        <h1 class="title-presentation">Je suis web développeur.</h1>
+        <h1 class="title-presentation">Défilement vers le bas pour voir mes projets</h1>
         <h1 class="arrow-down"></h1>
       </section>
       {data.map((portfolio) => (
