@@ -35,6 +35,7 @@ body {
     background-color: #fff;
     -webkit-clip-path: polygon(54% 0, 53% 85%, 100% 55%, 50% 100%, 0 55%, 47% 85%, 46% 0);
     clip-path: polygon(54% 0, 53% 85%, 100% 55%, 50% 100%, 0 55%, 47% 85%, 46% 0);
+    margin-bottom: 200px;
   }
 
   h1,
@@ -174,6 +175,7 @@ body {
     margin: 20px;
     background: var(--white);
     overflow: hidden;
+    margin-bottom: 175px;
   }  
 
   section .description{
@@ -221,7 +223,7 @@ body {
   
   @media screen and (max-width: 1200px) {
     .title-presentation { font-size: 30px; }
-    .title-index{ left: calc(50% - 40px); bottom: 22%; }    
+    .title-index{ left: calc(50% - 40px); bottom: 14%; }    
   }
 
   @media screen and (max-width: 680px) { section{ width: 100%; } }
