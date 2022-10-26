@@ -221,32 +221,18 @@ body {
   
   @media screen and (max-width: 1200px) {
     .title-presentation { font-size: 30px; }
-    .title-index{
-      left: calc(50% - 40px);
-      bottom: 22%;
-    }
-    
+    .title-index{ left: calc(50% - 40px); }    
   }
 
-  @media screen and (max-width: 680px) {
-    section{ width: 100%; }
-  }
-
-  @media screen and (max-width: 640px) {
-    .section-presentation{
-      padding: 0 15px;
-    }
-
+  @media screen and (max-width: 680px) { section{ width: 100%; } }
+  @media screen and (max-width: 640px) { 
+    .section-presentation{ padding: 0 15px; }
     .title-presentation{ font-size: 19px; letter-spacing: 0;}
-
   }
-
 
   @media screen and (max-width: 520px) {
     section .image-container{ background-color: transparent; }
     img{ height: initial; top: 50%; transform: translateY(-50%);}
   }
 
-  @media screen and (max-width: 414px) {
-    section .description .title { font-size: 37px; }
-  }
+  @media screen and (max-width: 414px) { section .description .title { font-size: 37px; } }
