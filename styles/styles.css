@@ -242,6 +242,6 @@ body {
     .progress { bottom: 50px; }
     .title-index {
       left: calc(50% - 50px);
-      bottom: 10%;
+      bottom: 5%;
     }
   }
