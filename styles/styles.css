@@ -235,4 +235,11 @@ body {
     img{ height: initial; top: 50%; transform: translateY(-50%);}
   }
 
-  @media screen and (max-width: 414px) { section .description .title { font-size: 37px; } }
+  @media screen and (max-width: 414px) { 
+    section .description .title { font-size: 37px; }
+    .progress { bottom: 50px; }
+    .title-index {
+      left: calc(50% - 50px);
+      bottom: 15%;
+    }
+  }
